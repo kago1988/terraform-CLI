@@ -11,9 +11,9 @@ terraform plan
 Here are some backend configs for `terraform init`: 
 ```
 terraform init \
-    -backend-config="address=https://gitlab.com/api/v4/projects/30587352/terraform/state/tfstate" \
-    -backend-config="lock_address=https://gitlab.com/api/v4/projects/30587352/terraform/state/tfstate/lock" \
-    -backend-config="unlock_address=https://gitlab.com/api/v4/projects/30587352/terraform/state/tfstate/lock" \
+    -backend-config="address=https://gitlab.com/api/v4/xyz" \
+    -backend-config="lock_address=https://gitlab.com/api/v4/xyz" \
+    -backend-config="unlock_address=https://gitlab.com/api/v4/xyz" \
     -backend-config="username=<YOUR-USERNAME>" \
     -backend-config="password=<YOUR-ACCESS-TOKEN>" \
     -backend-config="lock_method=POST" \
