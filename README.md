@@ -7,6 +7,8 @@ terraform validate
 terraform apply  
 terraform destroy  
 terraform plan  
+terraform show  
+terraform providers  
 ```
 
 Here are some backend configs for `terraform init`: 
