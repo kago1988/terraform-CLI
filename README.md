@@ -2,7 +2,7 @@
 (Hobby) Here are some very common terraform commands 
 
 ```
-terraform init  # install terraform  
+terraform init  # initiate terraform  
 terraform validate  
 terraform apply  
 terraform destroy  
