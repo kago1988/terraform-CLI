@@ -3,6 +3,7 @@
 
 ```
 terraform init  # install terraform  
+terraform validate  
 terraform apply  
 terraform destroy  
 terraform plan  
